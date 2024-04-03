@@ -78,8 +78,8 @@ nav{
     text-transform: uppercase;
 }
 
-.marrom{
-    color: #a45a49 ;
+.azul{
+    color: #1A90AA;
 }
 
 h1{
@@ -89,7 +89,7 @@ h1{
 }
 
 hr{
-    border-color: #a45a49;
+    border-color: #1A90AA;
 }
 
 .hero-subtitulo{
@@ -117,4 +117,26 @@ hr{
     padding: 1rem;
     margin: auto;
     transform: translate(0, -50%);
+}
+
+.modelos{
+    display: flex;
+    flex-direction: column;
+    
+    max-width: 1120px;
+    padding: 3rem 2em;
+    margin: auto;
+}
+
+.modelos-cabecalho{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.modelos-subtitulo{
+    color: #1A90AA;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
 }
