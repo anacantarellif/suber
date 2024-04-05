@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
 }
 
 body{
@@ -29,7 +30,7 @@ nav{
 }
 
 .logo{
-    font-family: Teko;
+    font-family: "Inter", sans-serif;
     font-size: 2rem;
     font-weight: 600;
     text-transform: uppercase;
@@ -72,7 +73,7 @@ nav{
 }
 
 .destaque{
-    font-family: Epilogue;
+    font-family: "Inter", sans-serif;
     font-size: 1rem;
     font-weight: 500;
     text-transform: uppercase;
@@ -82,8 +83,12 @@ nav{
     color: #1A90AA;
 }
 
+.amarelo{
+    color: #E7A80E;
+}
+
 h1{
-    font-family: Montserrat;
+    font-family: "Inter", sans-serif;
     font-size: 56px;
     font-weight: 800;
 }
@@ -93,7 +98,7 @@ hr{
 }
 
 .hero-subtitulo{
-    font-family: Inter;
+    font-family: "Inter", sans-serif;
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 400;
@@ -139,4 +144,42 @@ hr{
     font-family: Inter;
     font-size: 1rem;
     font-weight: 400;
+}
+
+.modelos-card-container{
+    padding: 0rem 10rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.modelos-card{
+    background-color: #241a1c;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex-basis: 29rem;
+}
+
+.modelos-card-cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.modelos-card-cabecalho-detalhes{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.modelo-título{
+    color: #FFF2E7;
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
 }
