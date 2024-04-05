@@ -52,7 +52,7 @@ nav{
     background: #181012;
 
     max-width: 1120px;
-    height: 60vh;
+    height: 34vh;
 
     display: flex;
     flex-direction: row;
@@ -138,6 +138,11 @@ hr{
     flex-direction: column;
     gap: 0.5rem;
 }
+.modelos-titulo{
+    font-family: Inter;
+    font-size: 2rem;
+    font-weight: 700;
+}
 
 .modelos-subtitulo{
     color: #1A90AA;
@@ -162,6 +167,7 @@ hr{
     flex-direction: column;
     gap: 2rem;
     flex-basis: 29rem;
+    margin-top: 2rem;
 }
 
 .modelos-card-cabecalho{
@@ -182,4 +188,56 @@ hr{
     font-family: "Inter", sans-serif;
     font-size: 1.5rem;
     font-weight: 700;
+}
+
+.modelo-avaliacao{
+    color: #756a67;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.modelo-descricao{
+    color: #c7bab3;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.modelo-autor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.modelo-autor-nome{
+    color: #c7bab3;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+footer{
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #23181a;
+    
+}
+
+.footer-copy{
+    color: #FFF2E7;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.footer-autor{
+    color: rgba(255, 242, 231, 0.50);
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
 }
